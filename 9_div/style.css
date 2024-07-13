@@ -1,0 +1,142 @@
+div{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.red {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+.green-circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.service {
+    width: 300px;
+    border: 1px solid black;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    
+}
+.yt-music{
+    width: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-right: 15px;
+    background-color: rgb(33,33,33);
+    padding: 10px 15px;
+}
+.title{
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
+.sub{
+    color: rgb(160, 160, 160);
+}
+
+
+.prof-pict{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    /* border-radius: 25px; */
+    margin-right: 7px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.search-box{
+    width: 300px;
+    border: none;
+    font-size: 18px;
+    color: rgb(100,100,100);
+    padding: 10px 20px;
+    border-radius: 25px;
+    
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    vertical-align: middle;
+}
+.twit-button{
+    background-color:rgb(29, 155, 240);
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.cat-prof{
+    padding: 12px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3) ;
+    width: 500px;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 400px;
+}
+
+.profile{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+.name{
+    margin-top: 8px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+.mutual{
+    margin-top: 0;
+    margin-bottom: 7px;
+    color: rgb(100,100,100);
+    margin-left: 8px;
+}
+.add{
+    background-color:rgb(24, 119, 242) ;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+    margin-left: 8px;
+}
+.cat-card{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    display: inline-block;
+    margin-right: 10px;
+}
+.friend-suggestion{
+    position: absolute;
+    left: 500px;
+    top: 200px;
+}
+
+
+
+.logo{
+    margin-bottom: 10px;
+    width: 200px;
+}
+.g-search{
+    width: 400px;
+    font-size: 18px;
+    padding: 8px 15px;
+    border: none;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.3);
+    border-radius: 25px;
+}
+.google-search{
+    margin-top: 100px;
+    margin-bottom: 500px;
+    text-align: center;
+}
