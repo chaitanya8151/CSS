@@ -1,0 +1,92 @@
+.child1{
+    background-color: lightblue;
+}
+.child2{
+    background-color: pink;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 200px 75px;
+    margin-bottom: 50px;
+}
+.col1,.col3{
+    background-color: lightblue;
+}
+.col2{
+    background-color: pink;
+}
+.grid-container2{
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+    margin-bottom: 50px;
+}
+
+.grid-container3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:10px 20px;
+    margin-bottom: 30px;
+}
+.child{
+    background-color: pink;
+}
+
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.profile{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 0px;
+}
+.name{
+    margin-top: 8px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-bottom: 5px;
+}
+.mutual{
+    color: rgb(100,100,100);
+    vertical-align: middle;
+}
+.add{
+    background-color:rgb(24, 119, 242) ;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-left: 8px;
+}
+.mutual-profile{
+    height: 28px;
+    width: 28px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 14px;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+.mutual-profile-row{
+    display: grid;
+    grid-template-columns:35px 1fr ;
+    margin-left: 8px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.cat-card{
+    /* width: 200px; */
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+    
+}
+.grid-cat{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 20px;
+}
+
