@@ -1,0 +1,45 @@
+
+.child1{
+    background-color: lightblue;
+    width: 200px;
+}
+.child2{
+    background-color: pink;
+    width: 75px;
+}
+.container{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.container2{
+    display: flex;
+    margin-bottom: 40px;
+}
+.item1{
+    background-color: lightblue;
+    width: 50px;
+}
+.item2{
+    background-color: pink;
+    flex: 1;
+}
+.item3{
+    background-color: lightblue;
+    width: 75px;
+}
+.lightpink{
+    background-color: pink;
+}
+.container3{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.container4{
+    height: 50px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
