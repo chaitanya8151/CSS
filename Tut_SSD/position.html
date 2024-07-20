@@ -1,23 +1,25 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Position Practice
     </title>
- </head>
- <body style="height: 3000px;
+</head>
+
+<body style="height: 3000px;
  padding-top: 70px;
  padding-left:72px ;
  ">
     <div style="background-color: black;
         color: white;
         position: fixed;
-        top: 0;
+        top:0;
         left: 0;
         right: 0;
         height: 60px;
-        
+        z-index: 1;
     ">
         header
     </div>
@@ -29,9 +31,31 @@
     left: 0;
     bottom: 0;
     top:60px;
-    width: 60px;
+    width: 72px;
     ">
         Sidebar
+        <div style="
+        position: absolute; 
+        background-color: red;
+        color: white;
+        /* left: 10px; */
+        /* top: 10px; */
+        right: 0;
+        top: 0;
+    ">
+           X
+        </div>
+    </div>
+    <div style="
+        position: absolute; 
+        background-color: red;
+        color: white;
+        /* left: 10px; */
+        /* top: 10px; */
+        right: 10px;
+        top: 60px;
+    ">
+        Absolute
     </div>
     <div style="
             
@@ -44,6 +68,19 @@
         background-color: pink;
         height: 200px;
         width: 200px;
-    ">div2</div>
- </body>
- </html>
+        position: relative;
+    ">
+        div2
+        <div style="
+        position: absolute; 
+        background-color: black;
+        color: white;
+       bottom: 10px;
+       right: 10px;
+    ">
+        5:00
+    </div>
+    </div>
+</body>
+
+</html>
