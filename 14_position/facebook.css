@@ -1,0 +1,46 @@
+body{
+    height: 3000px;
+}
+.prof-pic{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+.name{
+    font-weight: bold;
+
+}
+.add-friend{
+    background-color: rgb(24, 119, 242);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-right: 3px;
+}
+.message{
+    font-weight: bold;
+    background-color: rgb(230, 230, 230);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    /* width: 100%; */
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 50px;
+}
+.left-section{
+    display: flex;
+    align-items: center;
+}
