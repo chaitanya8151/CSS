@@ -1,0 +1,47 @@
+body{
+    height: 3000px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.close-button
+{
+    background-color: black;
+    color: white;    
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 22px;
+}
+.video-preview{
+    height: 180px;
+    width: 300px;
+    background-color: gray;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+.close-button-infix{
+    background-color: black;
+    color: white;    
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 22px;
+    position: absolute;
+    top:-10px;
+    left:-20px;
+}
+.video-time{
+    background-color:black;
+    color: white;
+    padding: 5px 10px;
+    position: absolute;
+    right: 10px;
+    bottom: 8px;
+}
